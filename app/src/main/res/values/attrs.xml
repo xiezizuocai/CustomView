@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="InputNumberView" >
+        
+        <attr name="max" format="integer" />
+        <attr name="min" format="integer" />
+        <attr name="defaultValue" format="integer" />
+        <attr name="step" format="integer" />
+        <attr name="disable" format="boolean" />
+        <attr name="btnBackground" format="reference" />
+        <attr name="valueSize" format="dimension" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="LoginPageView">
+        <attr name="mainColor" format="color" />
+        <attr name="verifyCodeSize" format="integer" />
+        <attr name="countDownDuration" format="integer" />
+        <attr name="dTime" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="looper_style">
+        <attr name="is_title_show" format="boolean" />
+        <attr name="show_pager_count" format="enum">
+            <enum name="single" value="1"/>
+            <enum name="two" value="2" />
+            <enum name="three" value="3" />
+            <enum name="four" value="4" />
+            <enum name="five" value="5" />
+        </attr>
+
+        <attr name="switch_time" format="integer" />
+        
+    </declare-styleable>
+
+
+</resources>
